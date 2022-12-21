@@ -1,0 +1,389 @@
+body
+{
+    background-image: url("/imagenoel/backgrondnoel\ new.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text
+{
+  font-family: "Sofia", sans-serif;
+  font-size: 75px;
+  color: rgba(10, 5, 5, 0.1);
+  display: inline-block;
+  transition: all .5s;
+  position: absolute;
+  left: 43%;
+  top: 35%;
+  animation: anima 4s infinite;
+}
+.text span:nth-child(1)
+{
+    animation: animate 2s infinite;
+}
+.text span:nth-child(2)
+{
+    animation: animate 2s infinite;
+}
+.text span:nth-child(3)
+{
+    animation: anima 2s infinite;
+}
+.text span:nth-child(4)
+{
+    animation: animat 2s infinite;
+}
+.text span:nth-child(5)
+{
+  animation: animat 2s infinite;
+}
+@keyframes animate {
+  0%
+  {
+      color:  rgb(233, 240, 233);
+      transform: translateY(0);
+      margin-left: 0;
+
+  }
+  25%
+  {
+      color: rgb(241, 238, 241);
+      transform: translateY(-400px);
+      margin-left: 10px;
+      text-shadow: 0 15px 5x rgba(0,0,0,1);
+
+  }
+ 100%
+  {
+      color:  rgb(244, 238, 238);
+      transform: translateY(0px);
+      
+
+  }
+}
+
+@keyframes animat {
+  0%
+  {
+      color:  rgb(247, 243, 244);
+      transform: translateX(0);
+      margin-right: 0;
+
+  }
+  25%
+  {
+      color: rgb(239, 245, 241);
+      transform: translateY(1000px);
+      margin-right: 10px;
+      text-shadow: 0 15px 5x rgba(0,0,0,1);
+
+  }
+ 100%
+  {
+      color:  rgb(250, 246, 243);
+      transform: translateY(5000px);
+      
+
+  }
+}
+
+@keyframes anima {
+  0%
+  {
+      color:  rgb(246, 249, 246);
+      transform: translateX(0);
+      margin-top: 0;
+
+  }
+  25%
+  {
+      color: rgb(247, 247, 242);
+      transform: translatex(400px);
+      margin-top: 20px;
+      text-shadow: 0 20px 5x rgba(0,0,0,1);
+
+  }
+ 100%
+  {
+      color:  rgb(248, 249, 249);
+      transform: translateX(0px);
+      
+
+  }
+}
+.text2
+{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size: 125px;
+  font-family: ;
+  animation: animate 4s infinite;
+}
+
+.text2 i:nth-child(1)
+{
+    animation: animate 2s infinite;
+}
+.text2 i:nth-child(2)
+{
+    animation: animate 2s infinite;
+}
+.text2 i:nth-child(3)
+{
+    animation: animat 2s infinite;
+}
+.text2 i:nth-child(4)
+{
+    animation: anima 2s infinite;
+}
+.text2 i:nth-child(5)
+{
+  animation: animate 2s infinite;
+}
+.text2 i:nth-child(6)
+{
+  animation: anima 2s infinite;
+}
+.text2 i:nth-child(7)
+{
+  animation: animat 2s infinite;
+}
+.text2 i:nth-child(8)
+{
+  animation: animate 2s infinite;
+}
+.text2 i:nth-child(9)
+{
+  animation: animat 2s infinite;
+}
+
+
+
+
+.tuyet img
+  { 
+    height: 50px;
+    position: absolute;
+   
+  }
+  .tuyet img:nth-child(1)
+  {
+    left: 1400px;
+    animation: anib 5s 2s infinite;
+  }
+  .tuyet img:nth-child(2)
+  {
+    left: 1350px;
+    animation: anib 5.5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(3)
+  {
+    left: 1300px;
+    animation: anib 4.5s 1.5s infinite;
+  }
+  .tuyet img:nth-child(4)
+  {
+    left: 1250px;
+    animation: anib 4s 3s infinite;
+  }
+  .tuyet img:nth-child(5)
+  {
+    left: 1200px;
+    animation: anib 6s 3s infinite;
+  }
+  .tuyet img:nth-child(6)
+  {
+    left: 1150px;
+    animation: anib 4s 1s infinite;
+  }
+  .tuyet img:nth-child(7)
+  {
+    left: 1100px;
+    animation: anib 6.5s 3.5s infinite;
+  }
+  .tuyet img:nth-child(8)
+  {
+    left: 1050px;
+    animation: anib 7s 4s infinite;
+  }
+  .tuyet img:nth-child(9)
+  {
+    left: 1000px;
+    animation: anib 5s 3s infinite;
+  }
+  .tuyet img:nth-child(10)
+  {
+    left: 950px;
+    animation: anib 4.5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(11)
+  {
+    left: 900px;
+    animation: anib 6s 3s infinite;
+  }
+  .tuyet img:nth-child(12)
+  {
+    left: 850px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(13)
+  {
+    left: 800px;
+    animation: anib 4s 1.5s infinite;
+  }
+  .tuyet img:nth-child(14)
+  {
+    left: 750px;
+    animation: anib 4.5s 3s infinite;
+  }
+  .tuyet img:nth-child(15)
+  {
+    left: 700px;
+    animation: anib 6s 4s infinite;
+  }
+  .tuyet img:nth-child(16)
+  {
+    left: 650px;
+    animation: anib 6.5s 3s infinite;
+  }
+  .tuyet img:nth-child(17)
+  {
+    left: 600px;
+    animation: anib 5s 3s infinite;
+  }
+
+
+  .tuyet img:nth-child(18)
+  {
+    left: 550px;
+    animation: anib 6s 3.5s infinite;
+  }
+  .tuyet img:nth-child(19)
+  {
+    left: 500px;
+    animation: anib 4s 2s infinite;
+  }
+  .tuyet img:nth-child(20)
+  {
+    left: 450px;
+    animation: anib 5s 2s infinite;
+  }
+  .tuyet img:nth-child(21)
+  {
+    left: 400px;
+    animation: anib 7.5s 4s infinite;
+  }
+  .tuyet img:nth-child(22)
+  {
+    left: 350px;
+    animation: anib 7s 3s infinite;
+  }
+  .tuyet img:nth-child(23)
+  {
+    left: 300px;
+    animation: anib 6.5s 3.5s infinite;
+  }
+  .tuyet img:nth-child(24)
+  {
+    left: 250px;
+    animation: anib 6s 3s infinite;
+  }
+  .tuyet img:nth-child(25)
+  {
+    left: 200px;
+    animation: anib 4s 2s infinite;
+  }
+  
+  .tuyet img:nth-child(26)
+  {
+    left: 150px;
+    animation: anib 5s 1s infinite;
+  }
+  
+  .tuyet img:nth-child(27)
+  {
+    left: 100px;
+    animation: anib 6s 3s infinite;
+  }
+  
+  .tuyet img:nth-child(28)
+  {
+    left: 50px;
+    animation: anib 7s 4s infinite;
+  }
+  
+  .tuyet img:nth-child(29)
+  {
+    left: 0px;
+    animation: anib 4s 2s infinite;
+  }
+  
+  .tuyet img:nth-child(30)
+  {
+    left: -30px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(31)
+  {
+    left: -60px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(32)
+  {
+    left: -90px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(33)
+  {
+    left: -120px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(34)
+  {
+    left: -150px;
+    animation: anib 5s 2.5s infinite;
+  }
+  .tuyet img:nth-child(35)
+  {
+    left: -180px;
+    animation: anib 5s 2.5s infinite;
+  }
+  
+  @keyframes anib 
+  {
+     0%
+     {
+        top: -50px;
+     
+     }
+     25%
+     {
+
+      top: 100px
+
+     }
+     50%
+     {
+
+        top: 300px;
+
+
+     }
+     75%
+     {
+
+      top: 500px;
+
+
+     }
+     100%
+     {
+       top: 600px;
+
+
+     }
+
+  }

@@ -1,0 +1,15 @@
+body
+{
+    background-image: url("/imagenoel/Background-Giang-sinh-1.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.box 
+{
+    position: absolute;
+    left: 40%;
+    top: -10%;
+
+}
